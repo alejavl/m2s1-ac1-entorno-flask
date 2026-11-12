@@ -1,13 +1,13 @@
+
 {% extends 'base.html' %}
 
-{% block title %}
-Acerca de
-{% endblock %}
+{% block title %}Acerca de{% endblock %}
 
 {% block content %}
-
-<h1>Acerca del proyecto</h1>
-
-<p>{{ proyecto }}</p>
-
+<div class="card">
+    <div class="card-body">
+        <h1 class="card-title h3">Acerca de {{ proyecto }}</h1>
+        <p class="card-text">Proyecto desarrollado por [Ivan Flores].</p>
+    </div>
+</div>
 {% endblock %}
